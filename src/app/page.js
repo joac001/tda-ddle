@@ -7,6 +7,8 @@ import Exam from '@/app/components/Exam';
 
 export default function Home() {
 
+  //TODO: For all the app, reanme all "exam" to "Rapid fire"
+
   const { page } = usePageStore();
   return (
     <main>

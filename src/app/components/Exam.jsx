@@ -1,7 +1,12 @@
+import { Box } from "@mui/material";
+import ChallengeDisplayer from "./ChallengeDisplayer";
+
 export default function Exam() {
     return (
-        <div>
-            <h1>Componente Exam</h1>
-        </div>
+        <Box sx={{
+            display: 'flex', justifyContent: 'center', width: '100%',
+        }}>
+            <ChallengeDisplayer challengeType='exam' />
+        </Box>
     );
 }
